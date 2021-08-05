@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.main {
+    padding-top: 8%;
+    align-items: inline;
+}
+
+#input-el {
+    padding: 13px;
+    width: 30%;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    outline: none;
+}
+
+#send-btn {
+    background: none;
+    border-color: greenyellow;
+    border-radius: 12px;
+    outline: none;
+    align-items: center;
+}
+
+button>img {
+    vertical-align: middle;
+}
+
+#toDoItems {
+    list-style-type: none;
+    font-size: larger;
+    text-transform: capitalize;
+    border: 1px solid green;
+}
+
+.container {
+    width: 35%;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+    color: red;
+    font-style: italic;
+}
